@@ -1,0 +1,45 @@
+# Python Build and Virtual Environments
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+snipeIT/
+.venv/
+venv/
+env/
+
+# Secrets and Credentials (Never commit actual credentials)
+.cred
+*.cred
+!example.cred
+.env
+*.env
+!.env.example
+*.pem
+*.key
+*.url
+
+# Configuration and credentials (ignored to protect tokens)
+config.py
+dev-config.py
+*dev-config.py
+dev_config.py
+*dev_config.py
+!example-config.py
+
+
+
+# Output and Generated Files
+*.json
+*.csv
+*.log
+reports/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
