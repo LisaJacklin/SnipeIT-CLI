@@ -32,3 +32,8 @@ jobs:
         snipeit test --help
         snipeit asset --help
         snipeit user --help
+
+    - name: Run unit tests
+      run: |
+        python -m unittest discover tests
+
